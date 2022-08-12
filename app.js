@@ -1,5 +1,4 @@
-console.log("hello world")
+const express = require("express")
+const app = express()
 
-setInterval(() => {
-    console.log("hi")
-},1000)
+app.listen(5000)
